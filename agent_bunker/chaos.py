@@ -39,7 +39,7 @@ class ChaosEngine:
                     self.inject_network_blackout(failure_probability=1.0)
                 agent_fn(inp)
                 results["passed"] += 1
-            except Exception as e:
+            except Exception:
                 # If agent handles or if test captures
                 results["failed"] += 1
         return results

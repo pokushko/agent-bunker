@@ -26,7 +26,9 @@ def test_wal_journal():
     
     records = wal.recover_state()
     assert len(records) == 2
+    assert records[0]["tx_id"] == tx1
     assert records[0]["type"] == "intent"
+    assert records[1]["tx_id"] == tx2
     assert records[1]["type"] == "action"
 
 def test_memory_guard():

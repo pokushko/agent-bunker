@@ -55,7 +55,7 @@ class FallbackCascade:
             res = self.primary_fn(*args, **kwargs)
             self.breaker.record_success()
             return res
-        except Exception as e:
+        except Exception:
             self.breaker.record_failure()
             # Seamless fallback to safe local heuristic or bunker response
             return self.fallback_fn(*args, **kwargs)
