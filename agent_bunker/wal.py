@@ -8,7 +8,7 @@ import os
 import json
 import time
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List
 
 class WALJournal:
     def __init__(self, journal_path: str = "./state/agent_bunker.wal", max_bytes: int = 10 * 1024 * 1024):

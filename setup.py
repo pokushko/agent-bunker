@@ -8,7 +8,7 @@ setup(
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     author="Roman Pokushko",
-    author_email="roman.pokushko@mail.ru",
+    author_email="pokusko.roman@gmail.com",
     url="https://github.com/pokushko/agent-bunker",
     packages=find_packages(),
     python_requires=">=3.9",

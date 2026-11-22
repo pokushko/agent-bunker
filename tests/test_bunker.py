@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import os
 import sys
 import shutil
 import pytest
@@ -7,7 +6,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from agent_bunker import Bunker, ChaosEngine, WALJournal, MemoryGuard, CircuitBreaker
+from agent_bunker import Bunker, WALJournal, MemoryGuard, CircuitBreaker
 
 TEST_DIR = Path("./temp_test_bunker")
 
