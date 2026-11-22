@@ -1,4 +1,14 @@
+<div align="center">
+  <img src="assets/banner.svg" alt="AgentBunker - Chaos Harness" width="100%" />
+</div>
+
+<br/>
+
 # AgentBunker 🛡️
+
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Resilience: 24/7](https://img.shields.io/badge/Resilience-24%2F7%20Zero--Downtime-emerald.svg)](https://github.com/pokushko/agent-bunker)
 
 **Resilience Harness & Chaos Engineering Toolkit for 24/7 Autonomous AI Agents.**
 

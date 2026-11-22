@@ -1,0 +1,39 @@
+<svg width="100%" height="200" viewBox="0 0 960 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bunkerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b111e" />
+      <stop offset="50%" stop-color="#111c30" />
+      <stop offset="100%" stop-color="#090e18" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D26A" />
+      <stop offset="100%" stop-color="#00F0FF" />
+    </linearGradient>
+    <pattern id="bunkerGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1c2b42" stroke-width="0.7" stroke-opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <rect width="960" height="200" rx="12" fill="url(#bunkerBg)" />
+  <rect width="960" height="200" rx="12" fill="url(#bunkerGrid)" />
+
+  <!-- Shield Vector Icon -->
+  <g transform="translate(50, 45)">
+    <path d="M 50 10 L 90 28 C 90 70 50 100 50 100 C 50 100 10 70 10 28 Z" fill="#0d2422" stroke="url(#shieldGrad)" stroke-width="3" />
+    <!-- Inner Vault Lines -->
+    <circle cx="50" cy="52" r="16" fill="none" stroke="#00D26A" stroke-width="2.5" />
+    <path d="M 50 36 L 50 68 M 34 52 L 66 52" stroke="#00F0FF" stroke-width="2" />
+    <circle cx="50" cy="52" r="4" fill="#00D26A" />
+  </g>
+
+  <!-- Title & Typography -->
+  <rect x="180" y="38" width="180" height="22" rx="4" fill="#0b2923" stroke="#00D26A" stroke-width="0.8" />
+  <text x="190" y="53" fill="#00D26A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">CHAOS HARNESS • 24/7</text>
+
+  <text x="180" y="100" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="36" font-weight="900" letter-spacing="1">AGENT BUNKER</text>
+  <text x="180" y="130" fill="#00F0FF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="600">Enterprise Chaos Engineering &amp; Autonomous Agent Fault-Tolerance</text>
+  <text x="180" y="156" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">WAL Persistence • MemoryGuard RSS Ceiling • Circuit Breaker • Network Blackout Injection</text>
+
+  <!-- Outer Frame -->
+  <rect x="1" y="1" width="958" height="198" rx="11" fill="none" stroke="#1f3352" stroke-width="1.5" />
+</svg>
